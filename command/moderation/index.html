@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.783239947348">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.783334569595">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -31,11 +31,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../image/bumblebee.png" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.6.0.783239947348" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.783334569595" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.783239947348" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.783334569595" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.783239947348" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.783334569595" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -387,6 +387,57 @@
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-none"><code v-pre class="language-none">?unlockall</code></pre>
 </doc-codeblock></div>
+<doc-anchor-target id="role-management">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#role-management">#</doc-anchor-trigger>
+        <span>Role Management</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="assign-a-role-to-a-specific-user">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#assign-a-role-to-a-specific-user">#</doc-anchor-trigger>
+        <span>Assign a Role to a Specific User</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">?role &lt;role&gt; &lt;user&gt;</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="addremove-role-for-humans">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#addremove-role-for-humans">#</doc-anchor-trigger>
+        <span>Add/Remove Role for Humans</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">?role add/remove humans &lt;role&gt;</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="addremove-role-for-bots">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#addremove-role-for-bots">#</doc-anchor-trigger>
+        <span>Add/Remove Role for Bots</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">?role add/remove bots &lt;role&gt;</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="addremove-role-for-all-members">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#addremove-role-for-all-members">#</doc-anchor-trigger>
+        <span>Add/Remove Role for All Members</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">?role add/remove all &lt;role&gt;</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="assign-an-emoji-to-a-role">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#assign-an-emoji-to-a-role">#</doc-anchor-trigger>
+        <span>Assign an Emoji to a Role</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">?roleicon &lt;role&gt; &lt;emoji&gt;</code></pre>
+</doc-codeblock></div>
 <doc-anchor-target id="purge-messages">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#purge-messages">#</doc-anchor-trigger>
@@ -536,6 +587,8 @@
 <p><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-red-600 bg-red-100 h-6 px-2 text-xs rounded-md">
     <span><span class="docs-emoji">&#x26A0;&#xFE0F;</span> Premium may be required after reaching the limit.</span>
 </span></p>
+<hr>
+<p>Feel free to adjust any wording or formatting to better fit your server’s style!</p>
 
                                 
                                 <!-- Required only on API pages -->
